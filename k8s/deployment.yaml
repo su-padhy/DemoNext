@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nextjs-app
-        image: yourdockerhubusername/nextjs-app:latest
+        image: speedster887/nextjs-app:latest
         ports:
         - containerPort: 3000  # Replace with the port used by your app
