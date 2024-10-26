@@ -19,6 +19,8 @@
 
 # production
 /build
+/k8s/cluster-issuer.yaml
+/k8s/certificate.yaml
 
 # misc
 .DS_Store
