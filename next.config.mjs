@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
     env: {
-      POD_NAME: process.env.POD_NAME,
-    },
-  };
+        POD_NAME: process.env.POD_NAME,
+      },
+};
+
+export default nextConfig;
