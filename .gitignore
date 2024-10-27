@@ -21,6 +21,8 @@
 /build
 /k8s/cluster-issuer.yaml
 /k8s/certificate.yaml
+/k8s/dashboard.yaml
+/k8s/metallb-config.yaml
 
 # misc
 .DS_Store

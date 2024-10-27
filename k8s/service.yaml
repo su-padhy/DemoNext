@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 3000  # Replace with the port used by your app
-  type: ClusterIP
+  type: LoadBalancer

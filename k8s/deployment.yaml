@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nextjs-deployment
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nextjs-app
@@ -17,3 +17,8 @@ spec:
         image: speedster887/nextjs-app:latest
         ports:
         - containerPort: 3000  # Replace with the port used by your app
+        env:
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
